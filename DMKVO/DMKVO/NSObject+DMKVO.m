@@ -90,6 +90,7 @@ static NSString * setterName(NSString *key)
 
 static Class kvo_class(id self, SEL _cmd)
 {
+ NSLog(@"%@==%@",NSStringFromClass(object_getClass(self)),NSStringFromClass(class_getSuperclass(object_getClass(self))));
     return class_getSuperclass(object_getClass(self));
 }
 
@@ -110,9 +111,10 @@ static void kvo_setter(id self, SEL _cmd, id newValue)
     
     struct objc_super superclazz = {
         .receiver = self,
-        .super_class = class_getSuperclass(object_getClass(self))
+        .super_class = class_getSuperclass(object_getClass(self))//Person
     };
     
+    NSLog(@"%@",NSStringFromClass(class_getSuperclass(object_getClass(self))));
     // cast our pointer so the compiler won't complain
     void (*objc_msgSendSuperCasted)(void *, SEL, id) = (void *)objc_msgSendSuper;
     
