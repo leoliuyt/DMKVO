@@ -90,7 +90,8 @@ static NSString * setterName(NSString *key)
 
 static Class kvo_class(id self, SEL _cmd)
 {
- NSLog(@"%@==%@",NSStringFromClass(object_getClass(self)),NSStringFromClass(class_getSuperclass(object_getClass(self))));
+    //当调用self.person.class 时 返回Person
+    NSLog(@"%@==%@",NSStringFromClass(object_getClass(self)),NSStringFromClass(class_getSuperclass(object_getClass(self))));
     return class_getSuperclass(object_getClass(self));
 }
 

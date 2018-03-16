@@ -39,6 +39,7 @@
     
     
     self.person.name = @"leoliu";
+    NSLog(@"%@",NSStringFromClass(self.person.class));
 //    NSLog(@"%s",object_getClass(self.person));
 }
 
