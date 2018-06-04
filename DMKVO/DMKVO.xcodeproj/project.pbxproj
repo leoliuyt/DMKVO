@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA6C03120C4D4F300E0A581 /* DMObjectKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6C03020C4D4F300E0A581 /* DMObjectKVC.m */; };
+		6BA6C03420C4D58E00E0A581 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6C03320C4D58E00E0A581 /* KVCViewController.m */; };
+		6BA6C03720C4D6CB00E0A581 /* NSObject+DMKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6C03620C4D6CB00E0A581 /* NSObject+DMKVC.m */; };
 		9E99CBC0205AA6D800C88A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99CBBF205AA6D800C88A44 /* AppDelegate.m */; };
 		9E99CBC3205AA6D800C88A44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99CBC2205AA6D800C88A44 /* ViewController.m */; };
 		9E99CBC6205AA6D800C88A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E99CBC4205AA6D800C88A44 /* Main.storyboard */; };
@@ -18,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BA6C02F20C4D4F300E0A581 /* DMObjectKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMObjectKVC.h; sourceTree = "<group>"; };
+		6BA6C03020C4D4F300E0A581 /* DMObjectKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMObjectKVC.m; sourceTree = "<group>"; };
+		6BA6C03220C4D58E00E0A581 /* KVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		6BA6C03320C4D58E00E0A581 /* KVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
+		6BA6C03520C4D6CB00E0A581 /* NSObject+DMKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DMKVC.h"; sourceTree = "<group>"; };
+		6BA6C03620C4D6CB00E0A581 /* NSObject+DMKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DMKVC.m"; sourceTree = "<group>"; };
 		9E99CBBB205AA6D800C88A44 /* DMKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E99CBBE205AA6D800C88A44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E99CBBF205AA6D800C88A44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,8 +79,14 @@
 				9E99CBD8205AA70500C88A44 /* NSObject+DMKVO.m */,
 				9E99CBD4205AA6EB00C88A44 /* Person.h */,
 				9E99CBD5205AA6EB00C88A44 /* Person.m */,
+				6BA6C02F20C4D4F300E0A581 /* DMObjectKVC.h */,
+				6BA6C03020C4D4F300E0A581 /* DMObjectKVC.m */,
+				6BA6C03520C4D6CB00E0A581 /* NSObject+DMKVC.h */,
+				6BA6C03620C4D6CB00E0A581 /* NSObject+DMKVC.m */,
 				9E99CBC1205AA6D800C88A44 /* ViewController.h */,
 				9E99CBC2205AA6D800C88A44 /* ViewController.m */,
+				6BA6C03220C4D58E00E0A581 /* KVCViewController.h */,
+				6BA6C03320C4D58E00E0A581 /* KVCViewController.m */,
 				9E99CBC4205AA6D800C88A44 /* Main.storyboard */,
 				9E99CBC7205AA6D800C88A44 /* Assets.xcassets */,
 				9E99CBC9205AA6D800C88A44 /* LaunchScreen.storyboard */,
@@ -152,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA6C03120C4D4F300E0A581 /* DMObjectKVC.m in Sources */,
 				9E99CBC3205AA6D800C88A44 /* ViewController.m in Sources */,
+				6BA6C03420C4D58E00E0A581 /* KVCViewController.m in Sources */,
+				6BA6C03720C4D6CB00E0A581 /* NSObject+DMKVC.m in Sources */,
 				9E99CBCE205AA6D800C88A44 /* main.m in Sources */,
 				9E99CBD9205AA70500C88A44 /* NSObject+DMKVO.m in Sources */,
 				9E99CBD6205AA6EB00C88A44 /* Person.m in Sources */,
